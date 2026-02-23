@@ -1,0 +1,103 @@
+ <script>
+function startLove() {
+
+  var message = "You mean more to me than words can ever explain. Every moment with you is special 💕";
+
+  var box = document.getElementById("messageBox");
+  var text = document.getElementById("text");
+  var song = document.getElementById("loveSong");
+
+  box.style.display = "block";
+  song.play();
+
+  var i = 0;
+  text.innerHTML = "";
+
+  function type() {
+    if (i < message.length) {
+      text.innerHTML += message.charAt(i);
+      i++;
+      setTimeout(type, 50);
+    }
+  }
+
+  type();
+}
+</script>
+<script>
+function startLove() {
+
+  var message = "Enik nine ntho ariyanam... I love you so much 💕";
+
+  var box = document.getElementById("messageBox");
+  var text = document.getElementById("text");
+  var song = document.getElementById("lovesong");
+
+  box.style.display = "block";
+  song.play();
+
+  var i = 0;
+  text.innerHTML = "";
+
+  function type() {
+    if (i < message.length) {
+      text.innerHTML += message.charAt(i);
+      i++;
+      setTimeout(type, 50);
+    }
+  }
+
+  type();
+}
+</script>
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Hey Muthumani 💖</title>
+</head>
+
+<body style="text-align:center; font-family:sans-serif; background:#ffe6f0; padding-top:120px;">
+
+    <h1>Hey Muthumani 💘</h1>
+
+    <button onclick="startLove()" 
+        style="padding:15px 30px; border-radius:30px; background:#ff6f91; color:white; border:none; cursor:pointer;">
+        Tap to hear my heart 💗
+    </button>
+
+    <div id="messageBox" 
+        style="display:none; margin-top:30px; background:white; padding:20px; width:300px; margin-left:auto; margin-right:auto; border-radius:15px;">
+        <p id="text"></p>
+    </div>
+
+    <audio id="lovesong" src="song.mp3"></audio>
+
+    <script>
+        function startLove() {
+
+            var message = "Enik nine nthoram istham ahn enn engne express chynm enn enik arinjuda. Kazhinja 2-3 varsham aayittu enik ninte koode nadakkan bhayankara ishtam ahn. Ni ollappo njn bhayankara happy ahn.Pakshe last 1 yr enik bhayankara ishtamolla oru yr aarn karanm dhoore ahnellum ni ondallo and enik ath mathi.Ni ollappo enik vere bestfriend inte avishyam ondo muthumaniye...Ni pore..Ni alle oll enik nthum parayan..gossip adikkan.Enik last 2-3 yr aayittu olla ah ni lifelong venm(by the way practical aayittu chinthichallum enik ithe parayan ollu)  I love You❤️";
+
+            var box = document.getElementById("messageBox");
+            var text = document.getElementById("text");
+            var song = document.getElementById("lovesong");
+
+            box.style.display = "block";
+            song.play();
+
+            var i = 0;
+            text.innerHTML = "";
+
+            function type() {
+                if (i < message.length) {
+                    text.innerHTML += message.charAt(i);
+                    i++;
+                    setTimeout(type, 50);
+                }
+            }
+
+            type();
+        }
+    </script>
+
+</body>
+</html>
